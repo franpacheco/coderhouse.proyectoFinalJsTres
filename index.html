@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Simulador Interactivo - Tercer entrega</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1>AgusMr Nails</h1>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="container">
+            <h2 class="titulo">Mis cursos</h2>
+
+            <div class="cursos" id="cursos">
+                <!-- LLENADO DESDE JS -->
+            </div>
+
+        </section>
+
+        <section class="container">
+            <h2 class="titulo">Portafolios</h2>
+            <div class="portfolio">
+                <div id="portfolio-vacio">
+                    <h4>No adquiriste ningun curso. :(</h4>
+                </div>
+                <div class="portfolio-cursos d-none" id="portfolio-cursos">
+                    <!-- LLENADO DESDE JS -->
+                </div>
+                <div class="portfolio-total">
+                    <h2>Total: <span id="portfolio-total">$0</span></h2>
+                    <button id="checkout-btn" class="curso-btn">Proceder al checkout</button>
+                </div>
+            </div>
+        </section>
+
+        <div id="checkout" class="d-none">
+            <h2>Checkout</h2>
+            <form id="checkout-form">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="direccion">Dirección de envío:</label>
+                <textarea id="direccion" name="direccion" required></textarea>
+
+                <button type="submit" class="curso-btn">Realizar pedido</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="p-footer">AgusMr Nails® - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
