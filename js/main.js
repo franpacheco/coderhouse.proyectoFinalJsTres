@@ -136,4 +136,14 @@ checkoutBtn.addEventListener("click", () => {
     mostrarCheckout();
 });
 
+document.getElementById("checkout-form").addEventListener("submit", (event) => {
+    event.preventDefault(); // Evita que la página se recargue al enviar el formulario
+
+    // Aquí podrías hacer cualquier otra cosa que necesites con los datos del formulario,
+    // como enviarlos a un servidor o realizar otras operaciones necesarias.
+
+    // Mostrar mensaje de confirmación
+    alert("¡Pedido realizado con éxito! Gracias por tu compra.");
+});
+
 actualizarPortfolio();
