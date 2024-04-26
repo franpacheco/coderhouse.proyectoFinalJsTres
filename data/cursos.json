@@ -1,0 +1,26 @@
+[
+    {
+        "id":"inicial",
+        "titulo":"Curso de inicial en uñas",
+        "precio":10000,
+        "img":"./img/INICIAL.png"   
+    },
+    {   
+        "id":"polygel",
+        "titulo":"Curso de polygel en uñas",
+        "precio":15000,
+        "img":"./img/POLYGEL.png"   
+    },
+    {
+        "id":"kapping",
+        "titulo":"Curso de kapping en uñas",
+        "precio":20000,
+        "img":"./img/KAPPING.png"   
+    },    
+    {
+        "id":"manicuria rusa",
+        "titulo":"Curso de Manicuria Rusa en uñas",
+        "precio":5000,
+        "img":"./img/MANICURIA-RUSA.png"   
+    }
+]
